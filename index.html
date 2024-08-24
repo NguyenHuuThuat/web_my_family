@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lưu Giữ Ảnh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lưu Giữ Ảnh</h1>
+    <div id="tabs">
+        <div class="tab" onclick="showTabContent('huuThuat')">Hữu Thuật</div>
+        <div class="tab" onclick="showTabContent('maiOanh')">Mai Oanh</div>
+    </div>
+
+    <div id="tab-contents">
+        <!-- Nội dung cho Hữu Thuật -->
+        <div id="huuThuat" class="tab-content">
+            <div id="sub-tabs">
+                <div class="tab" onclick="showSubTabContent('a')">A</div>
+                <div class="tab" onclick="showSubTabContent('b')">B</div>
+                <div class="tab" onclick="showSubTabContent('c')">C</div>
+            </div>
+            <div id="sub-tab-contents">
+                <div id="a" class="sub-tab-content">
+                    <img src="images/huuthuat1.jpg" alt="HuuThuat A1">
+                    <p>Hình ảnh A1 của Hữu Thuật.</p>
+                    <img src="images/huuthuat2.jpg" alt="HuuThuat A2">
+                    <p>Hình ảnh A2 của Hữu Thuật.</p>
+                </div>
+                <div id="b" class="sub-tab-content">
+                    <img src="images/huuthuat1.jpg" alt="HuuThuat B1">
+                    <p>Hình ảnh B1 của Hữu Thuật.</p>
+                    <img src="images/huuthuat2.jpg" alt="HuuThuat B2">
+                    <p>Hình ảnh B2 của Hữu Thuật.</p>
+                </div>
+                <div id="c" class="sub-tab-content">
+                    <img src="images/huuthuat1.jpg" alt="HuuThuat C1">
+                    <p>Hình ảnh C1 của Hữu Thuật.</p>
+                    <img src="images/huuthuat2.jpg" alt="HuuThuat C2">
+                    <p>Hình ảnh C2 của Hữu Thuật.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nội dung cho Mai Oanh -->
+        <div id="maiOanh" class="tab-content">
+            <img src="images/maioanh1.jpg" alt="MaiOanh1">
+            <p>Hình ảnh 1 của Mai Oanh.</p>
+            <img src="images/maioanh2.jpg" alt="MaiOanh2">
+            <p>Hình ảnh 2 của Mai Oanh.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
