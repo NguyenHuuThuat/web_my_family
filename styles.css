@@ -21,13 +21,13 @@ h1 {
     cursor: pointer;
     padding: 10px 20px;
     margin: 0 5px;
-    background-color: #007BFF;
+    background-color: #28a745; /* Đổi màu thành xanh lá cây */
     color: white;
     border-radius: 5px;
 }
 
 .tab:hover {
-    background-color: #0056b3;
+    background-color: #218838; /* Đổi màu hover thành xanh lá cây đậm hơn */
 }
 
 .tab-content, .sub-tab-content {
